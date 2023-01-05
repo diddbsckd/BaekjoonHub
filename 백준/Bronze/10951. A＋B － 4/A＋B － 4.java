@@ -19,6 +19,25 @@ public class Main {
 			}
 			
 		}
+//		for(;;) {
+//			
+//			if(sc.hasNextInt()) {
+//				A = sc.nextInt();
+//				System.out.println(A);
+//				if(A>0 && A<10) {
+//					B = sc.nextInt();
+//					System.out.println(B);
+//						if(B>0 && B<10) {
+//							System.out.println(A + B);
+//						}else {
+//							break;
+//						}
+//				}else {
+//					break;
+//				}
+//			}
+//			
+//		}
 		sc.close();
 	}
 
