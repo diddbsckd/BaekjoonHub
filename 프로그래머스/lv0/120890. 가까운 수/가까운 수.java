@@ -11,7 +11,6 @@ class Solution {
         		X = Y;
         		answer = array[i];
         	}else if(X == Y) {
-        		System.out.println(i);
         		if(array[i]<answer) {
         			answer = array[i];
         		}
