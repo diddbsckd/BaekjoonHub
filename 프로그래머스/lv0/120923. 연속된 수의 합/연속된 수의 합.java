@@ -5,17 +5,17 @@ class Solution {
         int Y = total/num;
         
         if(num%2 == 1) {
-        	answer[X] = Y;
         	for(int i=0; i<num; i++) {
         		answer[i] = Y - X;
         		X--;
+        		System.out.println(answer[i]);
         	}
         }else if(num%2 == 0) {
         	X -= 1;
-        	answer[X] = Y;
         	for(int i=0; i<num; i++) {
         		answer[i] = Y - X;
         		X--;
+        		System.out.println(answer[i]);
         	}
         }
         return answer;
